@@ -58,6 +58,7 @@ h2 {
   font-size: 30px;
 }
 
+/* layout */
 .fotoo {
   height: 200px;
   width: 100%;
@@ -104,6 +105,7 @@ h2 {
     justify-content: start;
   }
 }
+/* components */
 .botones {
   display: none;
 }
