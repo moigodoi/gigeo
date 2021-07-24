@@ -1,0 +1,61 @@
+/* abstract */
+/*COLORS*/
+/*font family*/
+/*$fuente1:
+$fuente2:
+/*montserrat titulo
+sans bajada*/
+/*font weight*/
+/*FONT SIZES*/
+/* vendor */
+/* base */
+.body {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.nav__logus {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.nav__logo {
+  font-family: "Futura-Normal", arial;
+  font-weight: 400;
+  font-size: 30px;
+  position: absolute;
+}
+
+.nav__logo-art {
+  font-family: "Futura-Normal", arial;
+  font-size: 8px;
+  position: absolute;
+  left: 100px;
+}
+
+.menu__nav-i {
+  color: black;
+}
+
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 18px;
+  padding-top: 5px;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */

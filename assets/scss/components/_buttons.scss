@@ -1,0 +1,25 @@
+.botones{
+    display: none;
+}
+
+.boton__celeste{
+    background-color: $boton1;
+    color: $white;
+    border: 0;
+    margin-right: 10px;
+}
+
+.boton__coral{
+    background-color: $boton2;
+    color: $white;
+    border: 0;
+}
+
+@media (min-width:992px){
+    .botones{
+        display:block;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
