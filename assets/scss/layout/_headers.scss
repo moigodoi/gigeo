@@ -1,0 +1,42 @@
+.herosection{
+    background-image: url(assets/img/image-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+.foto__mujer{
+    width: 65px;
+    border-radius: 198px;
+}
+
+.bajada{
+    margin: 20px 0px;
+    padding-top: 20px;
+    display:flex;
+    justify-content: center;
+}
+
+.video{
+    display:flex;
+    justify-content: center;
+}
+
+@media (min-width:992px){
+    .herosection{
+        height: 250px;
+    }
+
+    //vw80% flex spacebetween
+
+    .bajada{
+        display:flex;
+        width: 100%;
+        justify-content: space-between;
+        margin: auto;
+    }
+    .video{
+        justify-content: start;
+    }
+}

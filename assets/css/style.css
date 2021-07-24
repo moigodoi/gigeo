@@ -58,4 +58,76 @@ h2 {
   font-size: 30px;
 }
 
+.fotoo {
+  height: 200px;
+  width: 100%;
+}
+
+.herosection {
+  background-image: url(assets/img/image-banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+}
+
+.foto__mujer {
+  width: 65px;
+  border-radius: 198px;
+}
+
+.bajada {
+  margin: 20px 0px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 992px) {
+  .herosection {
+    height: 250px;
+  }
+
+  .bajada {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: auto;
+  }
+
+  .video {
+    justify-content: start;
+  }
+}
+.botones {
+  display: none;
+}
+
+.boton__celeste {
+  background-color: lightblue;
+  color: #FFF;
+  border: 0;
+  margin-right: 10px;
+}
+
+.boton__coral {
+  background-color: coral;
+  color: #FFF;
+  border: 0;
+}
+
+@media (min-width: 992px) {
+  .botones {
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
