@@ -1,0 +1,42 @@
+.nav__logus{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.nav__logo{
+    font-family: $fuentelogo;
+    font-weight: $regular;
+    font-size: $x-large;
+    position: absolute;
+}
+
+.nav__logo-art{
+    font-family: $fuentelogo;
+    font-size: $x-small;
+    position: absolute;
+    left: 100px;
+}
+
+.menu__nav-i{
+    color: $dark;
+}
+
+h4{
+    font-family: $fuenteh;
+    font-weight: $bold;
+    font-size: $large;
+    padding-top: 5px;
+}
+
+p{
+    font-family: $fuentep;
+    font-weight: $regular;
+    font-size: $medium;
+}
+
+h2{
+    font-family: $fuenteh;
+    font-weight: $bold;
+    font-size: $x-large;
+}
